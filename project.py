@@ -297,7 +297,7 @@ if add_selectbox == 'MBTI 궁합보기':
             st.write('3점!')
 else:
     st.write('# 한국의 MBTI비율과 인구수') # 제목노출
-    data = pd.read_excel('한국 mbti비율과 인구수.xlsx') # 엑셀 파일 불러오기
+    data = pd.read_excel('korea_mbti_proportion.xlsx') # 엑셀 파일 불러오기
     st.write(data) # 엑셀 파일 노출
 
     fig, ax = plt.subplots() # subplots함수를 사용해 그래프 그리기 시작
